@@ -223,3 +223,13 @@ img{
     .title{
         font-size:40px;
     }
+    img{
+    height: 190px;
+    margin: 4px;
+}
+      a.site-logo {
+    font-size: 30px;
+          padding-top:0px;
+          padding-left:0px;
+      }
+}
