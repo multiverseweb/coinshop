@@ -1,0 +1,213 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+html{
+    scroll-behavior: smooth;
+    scroll-padding-top: 70px;
+}
+body{
+    background-color: rgba(0, 0, 0, 0.948);
+    color: rgba(255, 255, 255, 0.875);
+}
+header{
+    position: fixed;
+}
+
+.cart{
+    filter: invert(1);
+    height: 50px;
+    position: fixed;
+    bottom: 10px;
+    right:10px;
+    background-color: white;
+    padding: 7px;
+}
+.cart:hover{
+    filter: invert(0.9);
+    scale: 1.01;
+}
+  /* navbar regular css start */
+  .navbar-area {
+    margin-top: -70px;
+    background: rgba(10, 10, 10, 0.538);
+      backdrop-filter: blur(5px);
+  }
+  .site-navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+      backdrop-filter: blur(5px);
+  }
+  a.site-logo {
+    font-size: 26px;
+    font-weight: 300;
+    color: #fff;
+    text-decoration: none;
+    margin-left: 20px;
+  }
+.header-area{
+        width: 100%;
+    }
+  .site-navbar ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+      backdrop-filter: blur(5px);
+  }
+  .site-navbar ul li a {
+    color: #fff;
+    padding: 20px;
+    display: block;
+    text-decoration: none;
+  }
+  .site-navbar ul li a:hover {
+    background: rgba(255,255,255,0.1);
+  }
+  /* navbar regular css end */
+  
+  
+  /* nav-toggler css start */
+  .nav-toggler {
+    border: #00000000;
+    padding: 5px;
+    background-color: transparent;
+    cursor: pointer;
+    height: 39px;
+    display: none;
+  }
+  .nav-toggler span, 
+  .nav-toggler span:before, 
+  .nav-toggler span:after {
+    width: 28px;
+    height: 3px;
+    background-color: #fff;
+    display: block;
+    transition: .3s;
+  }
+  .nav-toggler span:before {
+    content: '';
+    transform: translateY(-21px);
+  }
+  .nav-toggler span:after {
+    content: '';
+    transform: translateY(16px);
+  }
+  .nav-toggler.toggler-open span {
+    background-color: transparent;
+  }
+  .nav-toggler.toggler-open span:before {
+    transform: translateY(0px) rotate(45deg);
+  }
+  .nav-toggler.toggler-open span:after {
+    transform: translateY(-3px) rotate(-45deg);
+  }
+  /* nav-toggler css start */
+  
+  /* mobile breakpoint start */
+  @media screen and (max-width: 1111px) {
+      a.site-logo {
+    font-size: 100px;
+          padding-top:20px;
+          padding-left:20px;
+      padding-bottom:20px;
+      }
+      
+      #first{
+      margin-top:120px;
+      }
+    .header-area{
+        width: 100%;
+    }
+    .container {
+      width: 100%;
+    }
+    /* navbar css for mobile start */
+    .nav-toggler{
+      display: block;
+      position: absolute;
+        top:42px;
+      right: 185px;
+        height:80px;
+    }
+        .nav-toggler span, 
+  .nav-toggler span:before, 
+  .nav-toggler span:after {
+    width: 65px;
+    height: 7px;
+    background-color: #fff;
+    display: block;
+    transition: .3s;
+  }
+    .site-navbar {
+      min-height: 60px;
+    }
+    .site-navbar ul {
+        margin-top:110px;
+      position: absolute;
+      width: 100%;
+      height: calc(100vh - 0px);
+      left: 0;
+      top: 50px;
+      flex-direction: column;
+      align-items: center;
+      background-color: rgba(0,0,0,0.8);
+      backdrop-filter: blur(7px);
+      max-height: 0;
+      overflow: hidden;
+      transition: 0.3s;
+    }
+    .site-navbar ul li {
+      width: 100%;
+      text-align: center;
+    }
+    .site-navbar ul li a {
+      padding: 25px;
+        font-size:50px;
+        margin-top:70px;
+    }
+    .site-navbar ul li a:hover {
+      background-color: rgba(255,255,255,.1);
+    }
+    .site-navbar ul.open {
+      min-height: 1500%;
+      overflow: visible;
+    }  
+    /* navbar css for mobile end */
+  }
+  /* mobile breakpoint end */
+.text{
+    margin-top: 70px;
+    font-size: 20px;
+    margin-left: 20px;
+}
+
+.content{
+    margin-top: 30px;
+    width: 100%;
+}
+.title{
+    display:block;
+    font-size: 60px;
+    text-align: center;
+}
+img{
+    height: 240px;
+    aspect-ratio: 1;
+    object-fit: cover;
+    border-radius: 20px;
+    transition: 0.4s;
+    margin: 4px;
+}
+/*img:hover{
+    transition-delay: 1s;
+    height: 80vh;
+    aspect-ratio: 1;
+}
+@media only screen and (max-width:700px){
+    img:hover{
+        width: 97.5vw;
+        height: 97.5vw;
+    }
+}*/
