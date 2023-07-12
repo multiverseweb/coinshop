@@ -134,8 +134,8 @@ header{
     .nav-toggler{
       display: block;
       position: absolute;
-        top:42px;
-      right: 185px;
+        top:5px;
+      right: 5px;
         height:80px;
     }
         .nav-toggler span, 
@@ -221,7 +221,7 @@ img{
 
 @media screen and (max-width: 690px) {
     .title{
-        font-size:40px;
+        font-size:35px;
     }
     img{
     height: 180px;
@@ -229,11 +229,13 @@ img{
 }
       a.site-logo {
     font-size: 30px;
-          padding-top:0px;
+          padding-top:10px;
           padding-left:0px;
+          padding-bottom:10px;
       }
     .text{
-    font-size: 17px;
-    margin-left: 15px;
+    font-size: 12px;
+    margin-left: 10px;
+        margin-right:10px;
 }
 }
