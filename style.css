@@ -107,8 +107,15 @@ header{
   
   /* mobile breakpoint start */
   @media screen and (max-width: 1111px) {
+      img{
+    height: 190px;
+    margin: 4px;
+}
+      .cart{
+          height:30px;
+      }
       a.site-logo {
-    font-size: 100px;
+    font-size: 50px;
           padding-top:20px;
           padding-left:20px;
       padding-bottom:20px;
