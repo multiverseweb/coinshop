@@ -224,7 +224,7 @@ img{
         font-size:40px;
     }
     img{
-    height: 190px;
+    height: 180px;
     margin: 4px;
 }
       a.site-logo {
@@ -232,4 +232,8 @@ img{
           padding-top:0px;
           padding-left:0px;
       }
+    .text{
+    font-size: 17px;
+    margin-left: 15px;
+}
 }
