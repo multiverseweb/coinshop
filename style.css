@@ -234,6 +234,10 @@ img{
       height:96vw;
     aspect-ratio: 1;
 }
+    .cart:hover{
+        height:30px;
+          width:30px;
+    }
 }
 @media screen and (max-width: 690px) {
     .title{
