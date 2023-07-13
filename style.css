@@ -9,6 +9,12 @@ html{
 body{
     background-color: rgba(0, 0, 0, 0.948);
     color: rgba(255, 255, 255, 0.875);
+    font-family:'Times New Roman', Times, serif;
+}
+
+::selection{
+    color:#000;
+    background: #00808071;
 }
 header{
     position: fixed;
