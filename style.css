@@ -200,33 +200,34 @@ header{
     text-align: center;
 }
 img{
-    height: 240px;
+    width: 47%;
     aspect-ratio: 1;
     object-fit: cover;
     border-radius: 20px;
     transition: 0.4s;
-    margin: 4px;
+    margin: 1%;
 }
-/*img:hover{
-    transition-delay: 1s;
-    height: 80vh;
+
+@media only screen and (min-width:670px){
+    img{
+      width: 30%;
+    }
+}
+@media only screen and (min-width:1111px){
+  img{
+    width: 22.6%;
+  }
+}
+@media only screen and (max-width:670px){
+  img:hover{
+    width:96%;
     aspect-ratio: 1;
 }
-@media only screen and (max-width:700px){
-    img:hover{
-        width: 97.5vw;
-        height: 97.5vw;
-    }
-}*/
-
+}
 @media screen and (max-width: 690px) {
     .title{
         font-size:35px;
     }
-    img{
-    height: 166px;
-    margin: 4px;
-}
       a.site-logo {
     font-size: 30px;
           padding-top:10px;
