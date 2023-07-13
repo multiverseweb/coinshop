@@ -17,6 +17,7 @@ header{
 .cart{
     filter: invert(1);
     height: 50px;
+    width:50px;
     position: fixed;
     bottom: 10px;
     right:10px;
@@ -113,11 +114,12 @@ header{
 }
       .cart{
           height:30px;
+          width:30px;
       }
       a.site-logo {
     font-size: 50px;
           padding-top:20px;
-          padding-left:20px;
+          padding-left:10px;
       padding-bottom:20px;
       }
       
@@ -221,6 +223,7 @@ img{
 @media only screen and (max-width:670px){
   img:hover{
     width:96%;
+      height:96vw;
     aspect-ratio: 1;
 }
 }
