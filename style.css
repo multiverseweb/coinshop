@@ -213,11 +213,13 @@ img{
 @media only screen and (min-width:670px){
     img{
       width: 30%;
+        height:30vw;
     }
 }
 @media only screen and (min-width:1111px){
   img{
     width: 22.6%;
+      height:22.6vw;
   }
 }
 @media only screen and (max-width:670px){
