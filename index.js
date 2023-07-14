@@ -9,8 +9,8 @@ window.onscroll = function() {
         document.getElementById("cover")
           .style.filter="opacity(0.5)";
       } 
-    if (document.body.scrollTop > 80 ||
-      document.documentElement.scrollTop > 80) {
+    if (document.body.scrollTop > 50 ||
+      document.documentElement.scrollTop > 50) {
       document.getElementById("cover")
         .style.filter="opacity(0.3)";
     } 
