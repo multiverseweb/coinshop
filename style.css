@@ -189,6 +189,10 @@ img{
   height: 30px;
   width:30px;
 }
+.cart:hover{
+  height: 30px;
+  width:30px;
+}
 @media only screen and (min-width:670px){
     img{
       width: 30%;
