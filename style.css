@@ -17,13 +17,25 @@ body{
     background: #00808071;
 }
 header{
-    position: fixed;
+    position: sticky;
+    top:0px;
 }
 
+.cover{
+  width: 100vw;
+  height:150px;
+  border-radius: 0;
+  margin: 0;
+  filter:opacity(0.6);
+  transition: 0.6s;
+}
+.cover:hover{
+  width: 100vw;
+  height:150px;
+}
 .cart{
     filter: invert(1);
     height: 50px;
-    width:50px;
     position: fixed;
     bottom: 10px;
     right:10px;
@@ -36,7 +48,7 @@ header{
 }
   /* navbar regular css start */
   .navbar-area {
-    margin-top: -70px;
+    margin-top: -10px;
     background: rgba(10, 10, 10, 0.538);
       backdrop-filter: blur(5px);
   }
@@ -113,82 +125,37 @@ header{
   /* nav-toggler css start */
   
   /* mobile breakpoint start */
-  @media screen and (max-width: 1111px) {
-      img{
-    height: 190px;
-    margin: 4px;
-}
-      .cart{
-          height:30px;
-          width:30px;
+  @media screen and (max-width: 670px) {
+      .site-navbar{
+        display: flex;
+        flex-direction: column;
       }
-      a.site-logo {
-    font-size: 50px;
-          padding-top:20px;
-          padding-left:10px;
-      padding-bottom:20px;
-      }
-      
-      #first{
-      margin-top:120px;
-      }
-    .header-area{
-        width: 100%;
+      .text{
+        margin-top: 0px;
     }
-    .container {
-      width: 100%;
+    a.site-logo {
+      margin-top:30px;
     }
-    /* navbar css for mobile start */
-    .nav-toggler{
-      display: block;
-      position: absolute;
-        top:5px;
-      right: 5px;
-        height:80px;
-    }
-        .nav-toggler span, 
-  .nav-toggler span:before, 
-  .nav-toggler span:after {
-    width: 65px;
-    height: 7px;
-    background-color: #fff;
-    display: block;
-    transition: .3s;
+    html{
+      scroll-padding-top: 100px;
   }
-    .site-navbar {
-      min-height: 60px;
-    }
-    .site-navbar ul {
-        margin-top:110px;
-      position: absolute;
-      width: 100%;
-      height: calc(100vh - 0px);
-      left: 0;
-      top: 50px;
-      flex-direction: column;
-      align-items: center;
-      background-color: rgba(0,0,0,0.8);
-      backdrop-filter: blur(7px);
-      max-height: 0;
-      overflow: hidden;
-      transition: 0.3s;
-    }
-    .site-navbar ul li {
-      width: 100%;
-      text-align: center;
-    }
-    .site-navbar ul li a {
-      padding: 25px;
-        font-size:50px;
-        margin-top:70px;
-    }
-    .site-navbar ul li a:hover {
-      background-color: rgba(255,255,255,.1);
-    }
-    .site-navbar ul.open {
-      min-height: 1500%;
-      overflow: visible;
-    }  
+  ul{
+    margin-right: 0%;
+    min-width: 100vw;
+    justify-content:space-around;
+  }
+
+  .logo{
+    border-radius: 50%;
+    height: 70px;
+    width: 70px;
+    margin-left: 50%;
+    transform: translateX(-50%);
+    position: absolute;
+    z-index: 100;
+    top: 100px;
+    left:0%;
+  }
     /* navbar css for mobile end */
   }
   /* mobile breakpoint end */
@@ -215,43 +182,30 @@ img{
     transition: 0.4s;
     margin: 1%;
 }
-
+.cart{
+  height: 50px;
+  width:50px;
+}
 @media only screen and (min-width:670px){
     img{
       width: 30%;
-        height:30vw;
+    }
+    .cover{
+      display: none;
     }
 }
 @media only screen and (min-width:1111px){
   img{
     width: 22.6%;
-      height:22.6vw;
   }
 }
 @media only screen and (max-width:670px){
   img:hover{
     width:96%;
-      height:96vw;
     aspect-ratio: 1;
 }
-    .cart:hover{
-        height:30px;
-          width:30px;
-    }
-}
-@media screen and (max-width: 690px) {
-    .title{
-        font-size:35px;
-    }
-      a.site-logo {
-    font-size: 30px;
-          padding-top:10px;
-          padding-left:0px;
-          padding-bottom:10px;
-      }
-    .text{
-    font-size: 15px;
-    margin-left: 10px;
-        margin-right:10px;
+.cart{
+  height: 50px;
+  width:50px;
 }
 }
