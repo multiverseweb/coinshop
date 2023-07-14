@@ -4,13 +4,13 @@ window.onscroll = function() {
   
   
   function scrollFunction() {
-    if (document.body.scrollTop > 30 ||
-        document.documentElement.scrollTop > 30) {
+    if (document.body.scrollTop > 10 ||
+        document.documentElement.scrollTop > 10) {
         document.getElementById("cover")
           .style.filter="opacity(0.5)";
       } 
-    if (document.body.scrollTop > 100 ||
-      document.documentElement.scrollTop > 100) {
+    if (document.body.scrollTop > 80 ||
+      document.documentElement.scrollTop > 80) {
       document.getElementById("cover")
         .style.filter="opacity(0.3)";
     } 
@@ -19,8 +19,8 @@ window.onscroll = function() {
           .style.filter="opacity(0.8)";
       } 
 
-      if (document.body.scrollTop > 140 ||
-        document.documentElement.scrollTop > 140) {
+      if (document.body.scrollTop > 120 ||
+        document.documentElement.scrollTop > 120) {
         document.getElementById("logo")
           .style.filter="opacity(0)";
         }
