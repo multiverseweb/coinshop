@@ -44,8 +44,8 @@ header{
     padding: 7px;
 }
 .cart:hover{
-    height: 50px;
-    width:50px;
+    height: 30px;
+    width:30px;
     filter: invert(0.9);
     scale: 1.01;
 }
