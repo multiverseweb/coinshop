@@ -52,14 +52,14 @@ header{
   /* navbar regular css start */
   .navbar-area {
     margin-top: -10px;
-    background: rgba(10, 10, 10, 0.538);
-      backdrop-filter: blur(5px);
+    background: rgba(10, 10, 10, 0.338);
+      backdrop-filter: blur(3px);
   }
   .site-navbar {
     display: flex;
     justify-content: space-between;
     align-items: center;
-      backdrop-filter: blur(5px);
+      backdrop-filter: blur(3px);
   }
   a.site-logo {
     font-size: 26px;
@@ -76,7 +76,7 @@ header{
     padding: 0;
     list-style: none;
     display: flex;
-      backdrop-filter: blur(5px);
+      backdrop-filter: blur(3px);
   }
   .site-navbar ul li a {
     color: #fff;
