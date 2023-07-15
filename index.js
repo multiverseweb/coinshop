@@ -9,8 +9,8 @@ window.onscroll = function() {
         document.getElementById("cover")
           .style.filter="opacity(0.5)";
       } 
-    if (document.body.scrollTop > 50 ||
-      document.documentElement.scrollTop > 50) {
+    if (document.body.scrollTop > 20 ||
+      document.documentElement.scrollTop > 20) {
       document.getElementById("cover")
         .style.filter="opacity(0.3)";
     } 
@@ -19,8 +19,8 @@ window.onscroll = function() {
           .style.filter="opacity(0.8)";
       } 
 
-      if (document.body.scrollTop > 120 ||
-        document.documentElement.scrollTop > 120) {
+      if (document.body.scrollTop > 100 ||
+        document.documentElement.scrollTop > 100) {
         document.getElementById("logo")
           .style.filter="opacity(0)";
         }
