@@ -4,7 +4,7 @@
 }
 html{
     scroll-behavior: smooth;
-    scroll-padding-top: 70px;
+    scroll-padding-top: 90px;
 }
 body{
     background-color: rgba(0, 0, 0, 0.948);
@@ -174,7 +174,7 @@ header{
 }
 .title{
     display:block;
-    font-size: 40px;
+    font-size: 30px;
     text-align: center;
 }
 img{
