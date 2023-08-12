@@ -216,6 +216,10 @@ img{
     width:96%;
     aspect-ratio: 1;
 }
+    logo:hover{
+    width:70px;
+    aspect-ratio: 1;
+    }
 .cart{
   height: 30px;
   width:30px;
