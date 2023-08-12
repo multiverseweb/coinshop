@@ -4,7 +4,7 @@
 }
 html{
     scroll-behavior: smooth;
-    scroll-padding-top: 120px;
+    scroll-padding-top: 150px;
 }
 body{
     background-color: rgba(0, 0, 0, 0.948);
@@ -216,7 +216,7 @@ img{
     width:96%;
     aspect-ratio: 1;
 }
-    logo:hover{
+    .logo:hover{
     width:70px;
     aspect-ratio: 1;
     }
