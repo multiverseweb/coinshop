@@ -4,7 +4,7 @@
 }
 html{
     scroll-behavior: smooth;
-    scroll-padding-top: 150px;
+    scroll-padding-top: 170px;
 }
 body{
     background-color: rgba(0, 0, 0, 0.948);
@@ -228,4 +228,28 @@ img{
         height: 30px;
     width:30px;
     }
+}
+
+
+.contact{
+  background-color: black;
+  padding-top: 4vh;
+  padding-bottom: 4vh;
+}
+a{
+  text-decoration: none;
+  color: #fff;
+}
+.contact>ul>li{
+  margin-top: 2vh;
+  margin-bottom: 2vh;
+}
+.contact>ul{
+  display: flex;
+  flex-direction: column;
+  margin-left: 10vw;
+  list-style: none;
+}
+hr{
+  width: 80vw;
 }
