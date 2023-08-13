@@ -207,7 +207,10 @@ header{
   width:30px;
 }
 @media only screen and (min-width:670px){
-    img{
+    .coin{
+      width: 30%;
+    }
+    .note{
       width: 30%;
     }
     .cover{
@@ -218,9 +221,12 @@ header{
     }
 }
 @media only screen and (min-width:1111px){
-  img{
-    width: 22.6%;
-  }
+  .coin{
+      width: 22.6%;
+    }
+    .note{
+      width: 22.6%;
+    }
 }
 @media only screen and (max-width:670px){
   .note:hover{
