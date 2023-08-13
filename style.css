@@ -7,8 +7,8 @@ html{
     scroll-padding-top: 170px;
 }
 body{
-    background-color: black;
-    color: rgba(0,0,0,0.94);
+    background-color: rgba(0,0,0,0.94);
+    color: rgba(255,255,255,0.87);
     font-family:'Times New Roman', Times, serif;
 }
 
