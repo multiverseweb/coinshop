@@ -51,7 +51,7 @@ header{
 }
   /* navbar regular css start */
   .navbar-area {
-    margin-top: -10px;
+    margin-top: -4px;
     background: rgba(10, 10, 10, 0.338);
       backdrop-filter: blur(3px);
   }
