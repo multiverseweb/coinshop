@@ -233,14 +233,14 @@ header{
   .note:hover{
     width:96%;
     aspect-ratio: 1;
-      border: 3px solid #ffffff7f;
+      border: 1px solid #ffffff7f;
     padding: 3px;
     padding-bottom: 30px;
 }
     .coin:hover{
     width:96%;
     aspect-ratio: 2;
-        border: 3px solid #ffffff7f;
+        border: 1px solid #ffffff7f;
     padding: 3px;
     padding-bottom: 30px;
 }
