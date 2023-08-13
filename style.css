@@ -159,6 +159,7 @@ header{
     z-index: 100;
     top: 100px;
     left:0%;
+      transition: 0.6s;
   }
     /* navbar css for mobile end */
   }
