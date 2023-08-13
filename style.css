@@ -8,7 +8,7 @@ html{
 }
 body{
     background-color: black;
-    color: rgba(255, 255, 255, 0.875);
+    color: rgba(0,0,0,0.87);
     font-family:'Times New Roman', Times, serif;
 }
 
@@ -254,7 +254,8 @@ header{
 
 
 .contact{
-  background-color: rgb(18, 18, 18);
+  background-color: rgb(0,0,0);
+  color: rgba(255,255,255,0.87);
   padding-top: 4vh;
   padding-bottom: 4vh;
 }
