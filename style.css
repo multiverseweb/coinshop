@@ -144,7 +144,7 @@ header{
     html{
       scroll-padding-top: 100px;
   }
-  ul{
+ .navbar{
     margin-right: 0%;
     min-width: 100vw;
     justify-content:space-around;
