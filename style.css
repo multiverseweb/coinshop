@@ -180,13 +180,23 @@ header{
     text-align: center;
     padding-top: 25px;
 }
-img{
+.note{
     width: 47%;
     aspect-ratio: 1;
     object-fit: cover;
     border-radius: 20px;
     transition: 0.4s;
     margin: 1%;
+}
+.coin{
+    width: 47%;
+    aspect-ratio: 1;
+    object-fit: cover;
+    border-radius: 20px;
+    transition: 0.4s;
+    margin: 1%;
+    object-fit:cover;
+    object-position: 0%;
 }
 .cart{
   height: 30px;
@@ -213,9 +223,13 @@ img{
   }
 }
 @media only screen and (max-width:670px){
-  img:hover{
+  .note:hover{
     width:96%;
     aspect-ratio: 1;
+}
+    .coin:hover{
+    width:96%;
+    aspect-ratio: 2;
 }
     .logo:hover{
     width:70px;
