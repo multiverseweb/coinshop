@@ -7,7 +7,7 @@ html{
     scroll-padding-top: 170px;
 }
 body{
-    background-color: rgba(0, 0, 0, 0.948);
+    background-color: black;
     color: rgba(255, 255, 255, 0.875);
     font-family:'Times New Roman', Times, serif;
 }
@@ -233,7 +233,7 @@ img{
 
 
 .contact{
-  background-color: black;
+  background-color: rgba(0, 0, 0, 0.948);
   padding-top: 4vh;
   padding-bottom: 4vh;
 }
