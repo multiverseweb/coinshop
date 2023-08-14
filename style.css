@@ -220,6 +220,20 @@ header{
     .logo{
         display:none;
     }
+    .note:hover{
+    width:60%;
+    aspect-ratio: 1;
+      border: 1px solid #ffffff7f;
+    padding: 3px;
+    padding-bottom: 30px;
+}
+    .coin:hover{
+    width:60%;
+    aspect-ratio: 2;
+        border: 1px solid #ffffff7f;
+    padding: 3px;
+    padding-bottom: 30px;
+}
 }
 @media only screen and (min-width:1111px){
   .coin{
