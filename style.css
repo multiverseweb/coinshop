@@ -236,22 +236,32 @@ header{
 }
 }
 @media only screen and (min-width:1111px){
-  .coin{
-      width: 22.6%;
-    }
-    .note{
-      width: 22.6%;
-    }
     .note{
     width:22.6%;
     aspect-ratio: 1;
-      border: 1px solid #ffffff7f;
-    padding: 3px;
-    padding-bottom: 30px;
+    border: 0px solid #ffffff7f;
+    padding: 0px;
+    padding-bottom: 0px;
 }
     .coin{
     width:47%;
     aspect-ratio: 2;
+    border: 0px solid #ffffff7f;
+    padding: 0px;
+    padding-bottom: 0px;
+}
+    .note:hover{
+    width:23.6%;
+      border: 0px solid #ffffff7f;
+    padding: 0px;
+    padding-bottom: 0px;
+}
+    .coin:hover{
+    width:48%;
+    aspect-ratio: 2;
+        border: 0px solid #ffffff7f;
+    padding: 0px;
+    padding-bottom: 0px;
 }
 }
 @media only screen and (max-width:670px){
