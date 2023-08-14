@@ -267,8 +267,8 @@ header{
       border: 0px solid #ffffff7f;
     padding: 0px;
     padding-bottom: 0px;
-    filter: grayscale(8%);
-        z-index: -60;
+    filter: grayscale(20%);
+        z-index: -6000;
 }
     .coin:hover{
     width:47.5%;
@@ -276,8 +276,8 @@ header{
     border: 0px solid #ffffff7f;
     padding: 0px;
     padding-bottom: 0px;
-    filter: grayscale(8%);
-        z-index: -60;
+    filter: grayscale(20%);
+        z-index: -6000;
 }
 }
 @media only screen and (max-width:670px){
