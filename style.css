@@ -257,17 +257,21 @@ header{
     padding-bottom: 0px;
 }
     .note:hover{
-    width:23.6%;
+    width:22.6%;
       border: 0px solid #ffffff7f;
     padding: 0px;
     padding-bottom: 0px;
+    filter: grayscale(8%);
+        z-index: -60;
 }
     .coin:hover{
-    width:48%;
+    width:47.5%;
     aspect-ratio: 2;
-        border: 0px solid #ffffff7f;
+    border: 0px solid #ffffff7f;
     padding: 0px;
     padding-bottom: 0px;
+    filter: grayscale(8%);
+        z-index: -60;
 }
 }
 @media only screen and (max-width:670px){
