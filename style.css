@@ -282,3 +282,13 @@ a{
 hr{
   width: 80vw;
 }
+#imgid{
+  margin-left: 8vw;
+  margin-top: -35px;
+  position: absolute;
+  z-index: -40;
+}
+.buy{
+  margin-left: 55vw;
+}
+
