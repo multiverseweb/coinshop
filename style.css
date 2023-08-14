@@ -208,6 +208,9 @@ header{
   width:30px;
 }
 @media only screen and (min-width:670px){
+        html{
+    scroll-padding-top: 80px;
+}
     .coin{
       width: 30%;
     }
@@ -236,6 +239,9 @@ header{
 }
 }
 @media only screen and (min-width:1111px){
+    html{
+    scroll-padding-top: 80px;
+}
     .note{
     width:22.6%;
     aspect-ratio: 1;
