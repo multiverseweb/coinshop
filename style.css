@@ -242,6 +242,17 @@ header{
     .note{
       width: 22.6%;
     }
+    .note{
+    width:22.6%;
+    aspect-ratio: 1;
+      border: 1px solid #ffffff7f;
+    padding: 3px;
+    padding-bottom: 30px;
+}
+    .coin{
+    width:47%;
+    aspect-ratio: 2;
+}
 }
 @media only screen and (max-width:670px){
   .note:hover{
