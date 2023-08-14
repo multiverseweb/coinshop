@@ -186,7 +186,7 @@ header{
     aspect-ratio: 1;
     object-fit: cover;
     border-radius: 20px;
-    transition: 0.4s;
+    transition: 0.7s;
     margin: 1%;
 }
 .coin{
@@ -194,7 +194,7 @@ header{
     aspect-ratio: 1;
     object-fit: cover;
     border-radius: 20px;
-    transition: 0.4s;
+    transition: 0.7s;
     margin: 1%;
     object-fit:cover;
     object-position: 0%;
