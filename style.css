@@ -13,6 +13,7 @@ body{
 }
 
 .map{
+    margin-top:30px;
     width:100vw;
 }
 
@@ -138,7 +139,7 @@ header{
         flex-direction: column;
       }
       .text{
-        margin-top: 0px;
+        margin-top: -20px;
           margin-right: 10px;
     }
     a.site-logo {
