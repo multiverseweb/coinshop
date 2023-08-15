@@ -12,6 +12,10 @@ body{
     font-family:'Times New Roman', Times, serif;
 }
 
+.map{
+    width:100vw;
+}
+
 ::selection{
     color:#000;
     background: #00808071;
@@ -247,6 +251,11 @@ header{
 }
     .text{
     font-size: 20px;
+}
+    .map{
+    width:50vw;
+        margin-left:50%;
+        transform: translateX(-50%);
 }
     .note{
     width:22.6%;
