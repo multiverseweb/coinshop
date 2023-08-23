@@ -47,6 +47,7 @@ header{
     background-color: rgba(246,246,246, 0.338);
       backdrop-filter: blur(3px);
     padding: 7px;
+    border-radius: 10px;
 }
 .cart:hover{
     height: 30px;
