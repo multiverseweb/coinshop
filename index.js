@@ -33,7 +33,7 @@ window.onscroll = function() {scrollFunction()};
             document.getElementById("logo")
               .style.filter="opacity(1)";
           } 
-      if (document.body.scrollTop > 400 || document.documentElement.scrollTop > 1000) {
+      if (document.body.scrollTop > 400 || document.documentElement.scrollTop > 400) {
     mybutton.style.display = "block";
   } else {
     mybutton.style.display = "none";
