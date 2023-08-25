@@ -336,9 +336,8 @@ header{
 }
     #imgid{
   margin-left: 8vw;
-  margin-top: -35px;
+  margin-top: 0px;
   position: absolute;
-  z-index: 10;
 }
 }
 @media only screen and (max-width:670px){
