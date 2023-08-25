@@ -304,9 +304,10 @@ header{
 }
     .map{
     width:50vw;
-        margin-left:50%;
-        transform: translateX(-10%);
-}
+    margin-left: 10%;
+    transform: translateX(-10%);
+    display: block;
+    }
     .note{
     width:22.6%;
     aspect-ratio: 1;
