@@ -25,14 +25,14 @@ body{
   backdrop-filter: blur(3px);
   color: white; /* Text color */
   cursor: pointer; /* Add a mouse pointer on hover */
-  padding-left:4px;
-    padding-right:4px;
-    padding-bottom:12px;
+  padding-left:0px;
+    padding-right:0px;
+    padding-bottom:20px;
     padding-top:0px;/* Some padding */
   border-radius: 10px; /* Rounded corners */
   font-size: 35px; /* Increase font size */
-    height: 50px;
-    width:50px;
+    height: 43px;
+    width:43px;
 }
 
 #myBtn:hover {
