@@ -33,9 +33,9 @@ window.onscroll = function() {scrollFunction()};
             document.getElementById("logo")
               .style.filter="opacity(1)";
           } 
-      if (document.body.scrollTop > 400 || document.documentElement.scrollTop > 400) {
-    mybutton.style.display = "block";
+      if (document.body.scrollTop > 500 || document.documentElement.scrollTop > 500) {
+    mybutton.style.opacity = "1";
   } else {
-    mybutton.style.display = "none";
+    mybutton.style.opacity = "0";
       }
   }
