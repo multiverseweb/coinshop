@@ -40,12 +40,21 @@ body{
   color: #050801;
     scale: 1.01;
 }
+
 .map{
-    margin-top:30px;
+     margin-top:30px;
     width:100vw;
-    filter: hue-rotate(100000deg);
-    transition-duration: 3000s;
+  animation-name: example;
+  animation-iteration-count: infinite;
+  animation-duration: 30s;
 }
+@keyframes example {
+    0%   {filter: hue-rotate(0deg);}
+    25%  {filter: hue-rotate(90deg);}
+    50%  {filter: hue-rotate(180deg);}
+    50%  {filter: hue-rotate(270deg);}
+    100% {filter: hue-rotate(360deg);}
+  }
 ::selection{
     color:#000;
     background: #00808071;
