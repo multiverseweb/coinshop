@@ -12,6 +12,30 @@ body{
     font-family:'Times New Roman', Times, serif;
 }
 
+#myBtn {
+  /*display: none;*/ /* Hidden by default */
+  position: fixed; /* Fixed/sticky position */
+  bottom: 70px; /* Place the button at the bottom of the page */
+  right: 30px; /* Place the button 30px from the right */
+  z-index: 99; /* Make sure it does not overlap */
+  border: none; /* Remove borders */
+  outline: none; /* Remove outline */
+  background-color: rgb(143, 143, 143, 0.174);
+  -webkit-backdrop-filter: blur(7px);
+  backdrop-filter: blur(7px);
+  color: white; /* Text color */
+  cursor: pointer; /* Add a mouse pointer on hover */
+  padding-top:0;
+  padding-left:23px;
+  padding-right:23px;
+  padding-bottom: 20px; /* Some padding */
+  border-radius: 10px; /* Rounded corners */
+  font-size: 75px; /* Increase font size */
+}
+
+#myBtn:hover {
+  color: #050801;
+}
 .map{
     margin-top:30px;
     width:100vw;
