@@ -27,12 +27,12 @@ body{
   cursor: pointer; /* Add a mouse pointer on hover */
   padding-left:0px;
     padding-right:0px;
-    padding-bottom:20px;
+    padding-bottom:40px;
     padding-top:0px;/* Some padding */
   border-radius: 10px; /* Rounded corners */
   font-size: 35px; /* Increase font size */
-    height: 43px;
-    width:43px;
+    height: 44px;
+    width:44px;
 }
 
 #myBtn:hover {
