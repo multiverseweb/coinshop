@@ -31,6 +31,8 @@ body{
   padding-bottom: 20px; /* Some padding */
   border-radius: 10px; /* Rounded corners */
   font-size: 75px; /* Increase font size */
+    height: 50px;
+    width:50px;
 }
 
 #myBtn:hover {
