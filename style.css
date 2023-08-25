@@ -298,7 +298,7 @@ header{
     padding-bottom: 30px;
 }
 }
-@media only screen and (min-width:1111px){
+@media only screen and (min-width:1000px){
     html{
     scroll-padding-top: 80px;
 }
