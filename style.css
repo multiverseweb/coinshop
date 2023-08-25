@@ -40,7 +40,7 @@ body{
 }
 
 #myBtn:hover {
-  color: #050801;
+    filter:invert(0.1);
     scale: 1.01;
 }
 
@@ -92,6 +92,7 @@ header{
   height:150px;
 }
 .cart{
+    transition-duration: 1.2s;
     height: 50px;
     width:50px;
     position: fixed;
@@ -105,8 +106,8 @@ header{
 .cart:hover{
     height: 30px;
     width:30px;
-    filter: invert(0.9);
     scale: 1.01;
+    filter:invert(0.1);
 }
   /* navbar regular css start */
   .navbar-area {
