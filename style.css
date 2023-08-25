@@ -25,7 +25,10 @@ body{
   backdrop-filter: blur(3px);
   color: white; /* Text color */
   cursor: pointer; /* Add a mouse pointer on hover */
-  padding:7px; /* Some padding */
+  padding-left:4px;
+    padding-right:4px;
+    padding-bottom:12px;
+    padding-top:0px;/* Some padding */
   border-radius: 10px; /* Rounded corners */
   font-size: 35px; /* Increase font size */
     height: 50px;
