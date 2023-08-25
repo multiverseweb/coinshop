@@ -52,8 +52,9 @@ body{
   animation-duration: 40s;
 }
 .shade{
-    height:15px;
-    width:15px;
+    opacity:0.9;
+    height:12px;
+    width:12px;
     display: inline-block;
     background-color:teal;
     animation-name: example;
