@@ -13,7 +13,8 @@ body{
 }
 
 #myBtn {
-  display: none; /* Hidden by default */
+  opacity: 0; /* Hidden by default */
+  transition-duration: 1.2s;
   position: fixed; /* Fixed/sticky position */
   bottom: 60px; /* Place the button at the bottom of the page */
   right: 10px; /* Place the button 30px from the right */
