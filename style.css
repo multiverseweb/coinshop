@@ -44,7 +44,10 @@ body{
     margin-top:30px;
     width:100vw;
 }
-
+.map:hover{
+    filter: hue-rotate(100000deg);
+    transition-duration: 3000s;
+}
 ::selection{
     color:#000;
     background: #00808071;
