@@ -282,11 +282,13 @@ header{
 }
     .text{
     font-size: 20px;
+        width:35%;
+        
 }
     .map{
     width:50vw;
         margin-left:50%;
-        transform: translateX(-50%);
+        transform: translateX(-10%);
 }
     .note{
     width:22.6%;
