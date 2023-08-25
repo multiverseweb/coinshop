@@ -15,28 +15,26 @@ body{
 #myBtn {
   display: none; /* Hidden by default */
   position: fixed; /* Fixed/sticky position */
-  bottom: 70px; /* Place the button at the bottom of the page */
-  right: 30px; /* Place the button 30px from the right */
+  bottom: 60px; /* Place the button at the bottom of the page */
+  right: 10px; /* Place the button 30px from the right */
   z-index: 99; /* Make sure it does not overlap */
   border: none; /* Remove borders */
   outline: none; /* Remove outline */
-  background-color: rgb(143, 143, 143, 0.174);
-  -webkit-backdrop-filter: blur(7px);
-  backdrop-filter: blur(7px);
+  background-color: rgba(246,246,246, 0.338);
+  -webkit-backdrop-filter: blur(3px);
+  backdrop-filter: blur(3px);
   color: white; /* Text color */
   cursor: pointer; /* Add a mouse pointer on hover */
-  padding-top:0;
-  padding-left:23px;
-  padding-right:23px;
-  padding-bottom: 20px; /* Some padding */
+  padding:7px; /* Some padding */
   border-radius: 10px; /* Rounded corners */
-  font-size: 45px; /* Increase font size */
+  font-size: 35px; /* Increase font size */
     height: 50px;
     width:50px;
 }
 
 #myBtn:hover {
   color: #050801;
+    scale: 1.01;
 }
 .map{
     margin-top:30px;
