@@ -307,7 +307,6 @@ header{
     padding: 0px;
     padding-bottom: 0px;
     filter: grayscale(20%);
-        z-index: -6000;
 }
     .coin:hover{
     width:47.5%;
@@ -316,13 +315,12 @@ header{
     padding: 0px;
     padding-bottom: 0px;
     filter: grayscale(20%);
-        z-index: -6000;
 }
     #imgid{
   margin-left: 8vw;
   margin-top: -35px;
   position: absolute;
-  z-index: -10;
+  z-index: 10;
 }
 }
 @media only screen and (max-width:670px){
