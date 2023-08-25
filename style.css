@@ -49,7 +49,7 @@ body{
     width:100vw;
   animation-name: example;
   animation-iteration-count: infinite;
-  animation-duration: 30s;
+  animation-duration: 40s;
 }
 @keyframes example {
     0%   {filter: hue-rotate(0deg);}
