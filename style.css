@@ -298,7 +298,7 @@ header{
     padding-bottom: 0px;
 }
     .coin{
-    width:31.33%;
+    width:31%;
     aspect-ratio: 2;
     border: 0px solid #ffffff7f;
     padding: 0px;
@@ -312,7 +312,6 @@ header{
     filter: grayscale(20%);
 }
     .coin:hover{
-    width:47.5%;
     aspect-ratio: 2;
     border: 0px solid #ffffff7f;
     padding: 0px;
