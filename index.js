@@ -1,6 +1,7 @@
-window.onscroll = function() {
-    scrollFunction()
-  };
+let mybutton = document.getElementById("myBtn");
+
+// When the user scrolls down 20px from the top of the document, show the button
+window.onscroll = function() {scrollFunction()};
   
   function topFunction() {
   document.body.scrollTop = 0; // For Safari
@@ -32,4 +33,9 @@ window.onscroll = function() {
             document.getElementById("logo")
               .style.filter="opacity(1)";
           } 
+      if (document.body.scrollTop > 400 || document.documentElement.scrollTop > 1000) {
+    mybutton.style.display = "block";
+  } else {
+    mybutton.style.display = "none";
+      }
   }
