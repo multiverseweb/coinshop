@@ -51,6 +51,15 @@ body{
   animation-iteration-count: infinite;
   animation-duration: 40s;
 }
+.shade{
+    height:20px;
+    width:20px;
+    border: 1px solid white;
+    background-color:teal;
+    animation-name: example;
+  animation-iteration-count: infinite;
+  animation-duration: 40s;
+}
 @keyframes example {
     0%   {filter: hue-rotate(0deg);}
     25%  {filter: hue-rotate(90deg);}
@@ -58,6 +67,8 @@ body{
     50%  {filter: hue-rotate(270deg);}
     100% {filter: hue-rotate(360deg);}
   }
+
+
 ::selection{
     color:#000;
     background: #00808071;
@@ -295,6 +306,10 @@ header{
     align-items: center;
     justify-content: center;
 }
+    .shade{
+    height:20px;
+    width:20px;
+    }
     .text{
     font-size: 20px;
         width:35vw;
