@@ -274,14 +274,12 @@ header{
         display:none;
     }
     .note:hover{
-    width:60%;
     aspect-ratio: 1;
       border: 1px solid #ffffff7f;
     padding: 3px;
     padding-bottom: 30px;
 }
     .coin:hover{
-    width:60%;
     aspect-ratio: 2;
         border: 1px solid #ffffff7f;
     padding: 3px;
@@ -300,7 +298,6 @@ header{
     .text{
     font-size: 20px;
         width:35vw;
-        
 }
     .map{
     width:50vw;
@@ -330,6 +327,7 @@ header{
     filter: grayscale(20%);
 }
     .coin:hover{
+        width:31%;
     aspect-ratio: 2;
     border: 0px solid #ffffff7f;
     padding: 0px;
