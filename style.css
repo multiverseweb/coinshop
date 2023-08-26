@@ -45,6 +45,7 @@ body{
 }
 
 .map{
+    opacity: 0.8;
      margin-top:30px;
     width:100vw;
   animation-name: example;
@@ -52,7 +53,7 @@ body{
   animation-duration: 40s;
 }
 .shade{
-    opacity:0.9;
+    opacity:0.8;
     height:12px;
     width:12px;
     display: inline-block;
